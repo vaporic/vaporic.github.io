@@ -196,6 +196,9 @@ footer {
   /*width: 200px;*/
   margin: 10px;
 }
+.title{
+  font-size: 17px;
+}
 .post{
     overflow: hidden;
 }
