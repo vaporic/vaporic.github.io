@@ -192,9 +192,9 @@ footer {
 }
 
 /* Perfil */
-    width: 200px;
+.containter{
+  width: 200px;
   margin: 10px;
-  
 }
 .post{
     overflow: hidden;
@@ -230,7 +230,8 @@ footer {
   color: #bdc3c7;
 
 }
-.visitor strong{color: #bdc3c7;
+.visitor strong{
+    color: #bdc3c7;
     font-size: 15px;
 }
 .visitor a{
