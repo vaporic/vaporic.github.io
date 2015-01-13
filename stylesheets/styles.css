@@ -101,14 +101,6 @@ header {
   position:fixed;
 }
 
-header h1 {
-  font-family: 'Indie Flower', cursive;
-}
-
-.font-cool{
-  font-family: 'Indie Flower', cursive;
-}
-
 header ul {
   list-style:none;
   height:40px;
@@ -304,9 +296,10 @@ footer {
   clear: both;
 }
 .tags{
-  dispay: block;
 	list-style:none;
-	}	
+	overflow: hidden;
+	padding-bottom: 30px;
+}	
 .tags li, .tags a{
 	float:left;
 	height:26px;
@@ -314,11 +307,12 @@ footer {
 	position:relative;
 	font-size:14px;
 	margin-top: 4px;
-	}	
+	}
+	
 .tags a{
 	margin-left:20px;
 	padding:0 10px 0 12px;
-	background:#0089e0;
+	background:#02779E;
 	color:#fff;
 	text-decoration:none;
 	-moz-border-radius-bottomright:4px;
@@ -336,10 +330,25 @@ footer {
 	left:-12px;
 	width:0;
 	height:0;
-	border-color:transparent #0089e0 transparent transparent;
+	border-color:transparent #02779E transparent transparent;
 	border-style:solid;
 	border-width:12px 12px 14px 0;		
 	}	
+	
+	.tags-2 a{
+	  background: #79BD9A;
+	}
+	.tags-2 a:before{
+	  border-color:transparent #79BD9A transparent transparent;
+	}
+	
+	.tags-3 a{
+	  background: #E76B6B;
+	}
+	.tags-3 a:before{
+	  border-color:transparent #E76B6B transparent transparent;
+	}
+	
 .tags a:after{
 	content:"";
 	position:absolute;
