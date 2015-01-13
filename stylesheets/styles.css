@@ -193,7 +193,7 @@ footer {
 
 /* Perfil */
 .containter{
-  /*width: 200px;*/
+  width: 271px;
   margin: 10px;
 }
 .title{
@@ -249,12 +249,25 @@ footer {
 
 .infor{
   height: 45px;
-
-  background-color: #ecf0f1;
+  width: 100%;
   top: 0px;
-  
-	padding-left: 10px;
 	position: relative;
+}
+
+.twitter i{
+  color: #5EA9DD;
+  font-size: 16px;
+  padding-top: 6px;
+}
+.github i{
+  color: #000000;
+  font-size: 16px;
+  padding-top: 6px;
+}
+.linkedin i{
+  color: #0274B3;
+  font-size: 16px;
+  padding-top: 6px;
 }
 
 .infor p{font-family: Arial;
@@ -285,6 +298,67 @@ footer {
 	left: 208px;
 	top: 11px;
 }
+
+/* Tags */
+.clearfix{
+  clear: both;
+}
+.tags{
+  dispay: block;
+	list-style:none;
+	}	
+.tags li, .tags a{
+	float:left;
+	height:26px;
+	line-height:24px;
+	position:relative;
+	font-size:14px;
+	margin-top: 4px;
+	}	
+.tags a{
+	margin-left:20px;
+	padding:0 10px 0 12px;
+	background:#0089e0;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;	
+	border-top-right-radius:4px;	
+	}	
+.tags a:before{
+	content:"";
+	float:left;
+	position:absolute;
+	top:0;
+	left:-12px;
+	width:0;
+	height:0;
+	border-color:transparent #0089e0 transparent transparent;
+	border-style:solid;
+	border-width:12px 12px 14px 0;		
+	}	
+.tags a:after{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+	}		
+
+.tags a:hover{background:#555;}	
+.tags a:hover:before{border-color:transparent #555 transparent transparent;}
 
 @media print, screen and (max-width: 960px) {
   
