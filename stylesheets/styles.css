@@ -193,7 +193,7 @@ footer {
 
 /* Perfil */
 .containter{
-  width: 200px;
+  /*width: 200px;*/
   margin: 10px;
 }
 .post{
@@ -213,7 +213,7 @@ footer {
     padding: 20px;
     padding-left: 10px;
     position: relative;
-   color: #bdc3c7;
+   color: #FFF;
   font-family: Arial;
     font-size: 12px;
 }
@@ -231,7 +231,7 @@ footer {
 
 }
 .visitor strong{
-    color: #bdc3c7;
+    color: #FFF;
     font-size: 15px;
 }
 .visitor a{
