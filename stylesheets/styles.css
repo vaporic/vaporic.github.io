@@ -191,6 +191,97 @@ footer {
   bottom:50px;
 }
 
+/* Perfil */
+    width: 200px;
+  margin: 10px;
+  
+}
+.post{
+    overflow: hidden;
+}
+.post img{
+  -webkit-border-radius: 50% 50% 50% 0;
+  -moz-border-radius: 50% 50% 50% 0;
+  -ms-border-radius: 50% 50% 50% 0;
+  -o-border-radius: 50% 50% 50% 0;
+  border-radius: 50% 50% 50% 0;
+}
+.visitor{
+    height: 30px;
+    margin: 0px;
+    background-color: #222222;
+    padding: 20px;
+    padding-left: 10px;
+    position: relative;
+   color: #bdc3c7;
+  font-family: Arial;
+    font-size: 12px;
+}
+.visitor #arrow{
+	
+	/*CSS Triangle*/
+	height: 0px;
+	width: 0px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #222222;
+	position: absolute;
+	top: -20px;
+  color: #bdc3c7;
+
+}
+.visitor strong{color: #bdc3c7;
+    font-size: 15px;
+}
+.visitor a{
+  color: #bdc3c7;
+   
+}
+.visitor .comment{color: #bdc3c7;
+    position: absolute;  left: 14px;  
+    top: 42px;
+    background-position: -15px top;
+}
+
+.infor{
+  height: 45px;
+
+  background-color: #ecf0f1;
+  top: 0px;
+  
+	padding-left: 10px;
+	position: relative;
+}
+
+.infor p{font-family: Arial;
+    font-size: 12px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 45px;
+  color: #222222;
+  
+}
+.infor a{font-family: Arial;
+    font-size: 12px;
+    margin-left: 9px;
+  color: #222222;
+
+}
+.infor .space{
+    margin-left: 29px;
+}
+.like{
+	background-position: left bottom;
+	left: 129px;
+	top: 11px;
+}
+.comments{
+	background-position: -15px bottom;
+	left: 208px;
+	top: 11px;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
