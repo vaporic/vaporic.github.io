@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:#333;
   font-weight:300;
 }
 
@@ -65,7 +65,7 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;  
+  background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -104,9 +104,9 @@ header {
 header ul {
   list-style:none;
   height:40px;
-  
+
   padding:0;
-  
+
   background: #eee;
   background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -114,7 +114,7 @@ header ul {
   background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
+
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
@@ -213,7 +213,7 @@ footer {
     font-size: 12px;
 }
 .visitor #arrow{
-	
+
 	/*CSS Triangle*/
 	height: 0px;
 	width: 0px;
@@ -231,10 +231,10 @@ footer {
 }
 .visitor a{
   color: #bdc3c7;
-   
+
 }
 .visitor .comment{color: #bdc3c7;
-    position: absolute;  left: 14px;  
+    position: absolute;  left: 14px;
     top: 42px;
     background-position: -15px top;
 }
@@ -269,7 +269,7 @@ footer {
     margin: 0px;
     margin-right: 45px;
   color: #222222;
-  
+
 }
 .infor a{font-family: Arial;
     font-size: 12px;
@@ -299,7 +299,7 @@ footer {
 	list-style:none;
 	overflow: hidden;
 	padding-bottom: 30px;
-}	
+}
 .tags li, .tags a{
 	float:left;
 	height:26px;
@@ -308,7 +308,7 @@ footer {
 	font-size:14px;
 	margin-top: 4px;
 	}
-	
+
 .tags a{
 	margin-left:20px;
 	padding:0 10px 0 12px;
@@ -316,12 +316,12 @@ footer {
 	color:#fff;
 	text-decoration:none;
 	-moz-border-radius-bottomright:4px;
-	-webkit-border-bottom-right-radius:4px;	
+	-webkit-border-bottom-right-radius:4px;
 	border-bottom-right-radius:4px;
 	-moz-border-radius-topright:4px;
-	-webkit-border-top-right-radius:4px;	
-	border-top-right-radius:4px;	
-	}	
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	}
 .tags a:before{
 	content:"";
 	float:left;
@@ -332,23 +332,23 @@ footer {
 	height:0;
 	border-color:transparent #02779E transparent transparent;
 	border-style:solid;
-	border-width:12px 12px 14px 0;		
-	}	
-	
+	border-width:12px 12px 14px 0;
+	}
+
 	.tags-2 a{
 	  background: #79BD9A;
 	}
 	.tags-2 a:before{
 	  border-color:transparent #79BD9A transparent transparent;
 	}
-	
+
 	.tags-3 a{
 	  background: #E76B6B;
 	}
 	.tags-3 a:before{
 	  border-color:transparent #E76B6B transparent transparent;
 	}
-	
+
 .tags a:after{
 	content:"";
 	position:absolute;
@@ -364,39 +364,39 @@ footer {
 	-moz-box-shadow:-1px -1px 2px #004977;
 	-webkit-box-shadow:-1px -1px 2px #004977;
 	box-shadow:-1px -1px 2px #004977;
-	}		
+	}
 
-.tags a:hover{background:#555;}	
+.tags a:hover{background:#555;}
 .tags a:hover:before{border-color:transparent #555 transparent transparent;}
 
 @media print, screen and (max-width: 960px) {
-  
+
   div.wrapper {
     width:auto;
     margin:0;
   }
-  
+
   header, section, footer {
     float:none;
     position:static;
     width:auto;
   }
-  
+
   header {
     padding-right:320px;
   }
-  
+
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
-  
+
   header a small {
     display:inline;
   }
-  
+
   header ul {
     position:absolute;
     right:50px;
@@ -408,15 +408,15 @@ footer {
   body {
     word-wrap:break-word;
   }
-  
+
   header {
     padding:0;
   }
-  
+
   header ul, header p.view {
     position:static;
   }
-  
+
   pre, code {
     word-wrap:normal;
   }
@@ -426,7 +426,7 @@ footer {
   body {
     padding:15px;
   }
-  
+
   header ul {
     display:none;
   }
